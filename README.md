@@ -12,10 +12,7 @@ This README provides an overview of various methods available in Selenium WebDri
 - [submit() Method](#submit-method)
 - [Robot Class](#robot-class)
 
-## click() Method
-The `click()` method is used to simulate a mouse click on a web element.
 
-```java
 WebElement element = driver.findElement(By.id("elementId"));
 element.click();
 sendKeys(Keys.RETURN)
